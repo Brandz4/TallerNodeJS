@@ -1,0 +1,30 @@
+{
+  "name": "tallernodejs",
+  "version": "1.0.0",
+  "description": "folder de primeros pasos con express y node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandz4/TallerNodeJS.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "PostMan",
+    "MySQL",
+    "CORS."
+  ],
+  "author": "Brandon O.",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

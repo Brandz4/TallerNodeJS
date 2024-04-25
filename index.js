@@ -8,7 +8,12 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send(`Hello World !`);
+    res.send(`Hello World ! From Port ${port}`);
+});
+
+app.get('/myname', (req, res) => {
+    const name = 'NAME'; 
+    res.send(`Hello World! My name is ${name}.`);
 });
 
 app.listen(3000, () =>{
